@@ -1,0 +1,9 @@
+id,risk,category,likelihood,impact,owner,treatment,status,due_date,accepted_by
+R-001,Customer data exposed through misconfigured storage access,Security,3,5,Tunde,mitigate,in progress,2026-12-15,
+R-002,Departed employee keeps access to production,Access,3,4,Tunde,mitigate,open,2026-11-10,
+R-003,Key vendor outage disrupts service,Operational,2,4,Amara,transfer,in progress,2027-01-31,
+R-004,Phishing leads to account takeover,Security,4,3,Ngozi,accept,open,,
+R-005,Audit evidence not collected on time,Compliance,3,2,David,mitigate,in progress,2026-12-20,
+R-006,Laptop lost with unencrypted data,Security,2,3,David,mitigate,closed,2026-09-30,
+R-007,Unpatched dependency vulnerability,Security,4,4,Tunde,mitigate,open,2026-11-30,
+R-008,Office power outage,Operational,2,1,Amara,accept,open,,Amara
