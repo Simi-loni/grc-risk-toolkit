@@ -15,7 +15,7 @@ All data in this repo is made-up sample data. No real company information is use
 | METHODOLOGY.md | Likelihood and impact scales, rating bands, example risk tolerance, treatment options |
 | data/risk_register.csv | Sample register with owners, treatments, status and due dates |
 | scripts/risk_report.py | Scores each risk and flags problems |
-| Worked example | Planned: a risk assessment for a product change |
+| WORKED_EXAMPLE.md | A risk assessment of a new webhook feature, from scoring to a recommendation for leadership |
 
 ## How to run it
 
