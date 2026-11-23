@@ -31,15 +31,19 @@ You need Python 3 installed.
 
 ```
 python3 scripts/risk_report.py data/risk_register.csv 2026-11-23
+python3 scripts/risk_report.py data/novaprotect_risk_register.csv 2026-11-23
 ```
 
 The date at the end is the "as of" date. The sample data was built around it. Without it, the script uses today's date and more risks will show as overdue.
 
 ## What the report flags
 
-1. A risk that is not closed and is past its due date.
-2. A risk above tolerance with no owner or no due date.
-3. A risk above tolerance that is being accepted without a named person signing it off.
+1. A rating in the file that does not match the score.
+2. A risk that is not closed and is past its target date.
+3. A risk whose next review date has passed.
+4. A risk above tolerance with no owner or no date.
+5. A risk above tolerance with work not started.
+6. A risk above tolerance that is being accepted without a named person signing it off.
 
 ## Choices in the method
 
