@@ -1,0 +1,44 @@
+# Sheet: Risk Register
+Risk ID,Risk Description,Category,Likelihood (1-5),Impact (1-5),Risk Score,Risk Rating,Current Controls,Mitigation Action,Risk Owner,Residual Risk,Status,Target Date,Next Review,Rank
+R-001,Unauthorised access to customer data via compromised credentials,Data Security,4,5,20,Critical,Password policy in place,Enforce MFA across all accounts; implement privileged access management,IT Manager,High,In progress,2027-01-31,2026-12-15,1
+R-002,Phishing attack leading to employee credential theft,Cyber Threat,4,4,16,Critical,Basic email filtering active,Deploy advanced email filtering; run quarterly phishing simulations,CISO,Medium,In progress,2027-01-15,2026-12-15,2
+R-003,Misconfigured cloud storage bucket exposing sensitive files,Cloud Security,3,5,15,Critical,Manual config reviews occasionally,Implement automated cloud misconfiguration scanning weekly,IT Manager,Medium,Not started,2027-01-31,2026-12-15,3
+R-004,Ransomware infection encrypting company and client data,Cyber Threat,3,5,15,Critical,Antivirus on company devices,Deploy EDR solution; enforce offline backup policy,IT Manager,Medium,Not started,2027-02-15,2026-12-15,3
+R-005,Third-party vendor suffers breach exposing shared data,Third-Party Risk,3,4,12,High,Vendor contracts in place,Conduct vendor security assessments; include security clauses in contracts,Compliance,Medium,In progress,2027-02-28,2026-12-15,5
+R-006,Insider threat: employee exfiltrates sensitive client data,Insider Threat,2,5,10,High,Basic access controls,Implement DLP tooling; enforce least privilege access,CISO,Low,Not started,2027-03-31,2026-12-15,6
+R-007,System downtime due to unpatched software vulnerability,Vulnerability Mgmt,3,3,9,Medium,Ad hoc patching process,Establish monthly patch management cycle; maintain patch register,IT Manager,Low,In progress,2027-03-31,2027-02-15,8
+R-008,GDPR non-compliance due to inadequate data subject request handling,Regulatory,2,4,8,Medium,Privacy policy published,Map data flows; implement DSR tracker; train responsible staff,Compliance,Low,Not started,2027-04-30,2027-02-15,10
+R-009,Loss of laptop containing unencrypted client data,Physical Security,2,4,8,Medium,None,Enforce full-disk encryption on all devices; implement remote wipe capability,IT Manager,Low,In progress,2027-03-31,2027-02-15,10
+R-010,No business continuity plan; single point of failure for critical systems,Resilience,2,4,8,Medium,None,Develop and test BCP covering critical systems and key personnel,CISO,Low,Not started,2027-05-31,2027-02-15,10
+R-011,Weak API security exposing backend services to exploitation,Application Security,3,3,9,Medium,Basic API keys in use,Implement API gateway; enforce OAuth 2.0 and rate limiting,IT Manager,Low,Not started,2027-04-30,2027-02-15,8
+R-012,Staff accessing systems via unsecured public Wi-Fi,Network Security,3,2,6,Medium,Remote work policy exists but unenforced,Mandate VPN use for all remote access; update remote work policy,CISO,Low,In progress,2027-03-31,2027-02-15,14
+R-013,Accidental deletion of production database,Data Integrity,2,5,10,High,Weekly manual backups,Automate daily backups with tested restore procedure,IT Manager,Low,In progress,2027-02-15,2026-12-15,6
+R-014,Software supply chain attack via compromised open-source dependency,Supply Chain,2,4,8,Medium,No formal process,Implement software composition analysis tool; maintain approved library list,IT Manager,Low,Not started,2027-05-31,2027-02-15,10
+R-015,Failure to renew SSL certificates causing service outage and client distrust,Operational,2,3,6,Medium,Manual calendar reminders,Implement automated certificate monitoring and renewal alerts,IT Manager,Low,Not started,2027-04-30,2027-02-15,14
+,,,,,,,,,,,,,,
+Risk Score = Likelihood x Impact. Ratings:,,,,,,,,,,,,,,
+Score Range,Rating,,,,,,,,,,,,,
+15-25,Critical,,,,,,,,,,,,,
+10-14,High,,,,,,,,,,,,,
+5-9,Medium,,,,,,,,,,,,,
+1-4,Low,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+
+# Sheet: Summary
+,
+Rating,Count
+Critical,4
+High,3
+Medium,8
+Low,0
+Total,15
+,
+Portfolio project: NovaProtect is a fictional organisation and all data is invented.,
+"This risk register covers 15 identified risks across NovaProtect's technology, operational, and regulatory environment.",
+Risks were scored using a 5x5 likelihood-impact matrix aligned to ISO 31000.,
+"4 critical and 3 high risks have been identified, requiring immediate mitigation action.",
+Average risk score across the register is 10.7.,
+10 risks are expected to reach Low residual risk following planned control implementation.,
+"Full register review is scheduled quarterly, with high and critical risks reviewed monthly by the CISO.",
