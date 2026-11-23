@@ -16,6 +16,14 @@ All data in this repo is made-up sample data. No real company information is use
 | data/risk_register.csv | Sample register with owners, treatments, status and due dates |
 | scripts/risk_report.py | Scores each risk and flags problems |
 | WORKED_EXAMPLE.md | A risk assessment of a new webhook feature, from scoring to a recommendation for leadership |
+| data/novaprotect_risk_register.csv | Portfolio sample: 15-risk register for a fictional organisation |
+## Portfolio sample
+
+data/novaprotect_risk_register.csv is a 15 risk enterprise risk register I built as a portfolio project for a fictional organization, NovaProtect. All risks, owners and dates are invented. I designed the register. I used AI assistance to check my scoring against my own rating bands and fix the errors it found, and to add the status and target date columns.
+
+data/risk_register.csv is a smaller file used only to test the script.
+
+The full portfolio, including a FedRAMP crosswalk, an audit program and a vendor assessment, is here (https://drive.google.com/drive/folders/1J4H7y9-mTc4oFsQRK_wbOLpDfvlfq2n0)
 
 ## How to run it
 
